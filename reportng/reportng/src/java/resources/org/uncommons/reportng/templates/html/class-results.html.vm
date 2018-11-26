@@ -22,7 +22,7 @@
   </td>
   
   <td class="result">
-    ## Display the dependencies for skipped test methods.
+## Display the dependencies for skipped test methods.
     #if ($testResult.status == 3) ## 3 means skipped.
       #if( $utils.hasDependentGroups($testResult) )
         <i>$messages.getString("dependsOnGroups"): </i>
@@ -43,7 +43,7 @@
       <i>$messages.getString("methodArguments"): </i><span class="arguments">$utils.getArguments($testResult)</span><br />
     #end
 
-    ## Show logger output for the test. 
+## Show logger output for the test. 
     #set ($output = $utils.getTestOutput($testResult))
     #if ($output.size() > 0)
     <div class="testOutput">
