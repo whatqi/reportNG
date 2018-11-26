@@ -1,3 +1,6 @@
+reportng-source为reportng源码
+reportng为本机现在用的reportng的源码
+
 利用reportNG需要的四个包：
 guice-3.0.jar
 velocity-dep-1.4.jar
