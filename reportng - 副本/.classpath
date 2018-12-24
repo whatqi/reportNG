@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="reportng/src/java/main"/>
+	<classpathentry kind="src" path="reportng/src/java/test"/>
+	<classpathentry kind="lib" path="dist/reportng-1.1.5.jar"/>
+	<classpathentry kind="lib" path="dist/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/asm-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/asm-analysis-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/asm-commons-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/asm-tree-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/asm-util-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/cobertura-2.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/cobertura/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/testng/testng-6.8-nobsh-guice.jar"/>
+	<classpathentry kind="lib" path="lib/compiletime/uncommons-antlib-0.3.2.jar"/>
+	<classpathentry kind="lib" path="reportng/build/reportng-1.1.5.jar"/>
+	<classpathentry kind="lib" path="reportng/lib/runtime/velocity-dep-1.4.jar"/>
+	<classpathentry kind="output" path="reportng/build/classes/main"/>
+</classpath>
